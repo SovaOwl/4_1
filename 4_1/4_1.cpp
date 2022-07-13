@@ -19,7 +19,7 @@ public:
 		house_number = -999;
 		apartment_number = -999;
 	}
-	address(std::string City_name, std::string Street_name, int house_num_value, int flat_num_value)
+	address(string City_name, string Street_name, int house_num_value, int flat_num_value)
 	{
 		this->city​_name = City_name;
 		this->street_name = Street_name;
@@ -27,7 +27,7 @@ public:
 		this->apartment_number = flat_num_value;
 	}
 
-	std::string print_address()
+	string print_address()
 	{
 
 		return this->city​_name + ", " + this->street_name + ", " + to_string(this->house_number) + ", " + to_string(this->apartment_number);
